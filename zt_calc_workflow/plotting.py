@@ -15,7 +15,7 @@ from matplotlib.colors import hsv_to_rgb
 # Functions
 # ---------
 
-def setup_matplotlib(sans_serif=False, font_size=8, linewidth=0.5):
+def setup_matplotlib(sans_serif=True, font_size=8, linewidth=0.5):
     """ Set Matplotlib defaults. """
 
     # Fonts.
