@@ -14,7 +14,7 @@ This example contains the following example scripts:
 
 This script plots a comparison of the *ZT* of p- and n-type *Pnma* SnS and SnSe as a function of doping level *n* and temperature *T*.
 
-<img src="zt_plot.png" width="75%">
+<img src="zt_plot.png" width="60%">
 
 ### 2. `zt_max_yaml.py`
 
