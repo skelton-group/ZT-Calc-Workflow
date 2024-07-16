@@ -1,6 +1,13 @@
 # zt_calc_workflow/plotting.py
 
 
+# ---------
+# Docstring
+# ---------
+
+""" Routines for plotting with Matplotlib. """
+
+
 # -------
 # Imports
 # -------

@@ -33,10 +33,10 @@ from matplotlib.ticker import FuncFormatter
 
 import sys ; sys.path.append(r"/mnt/d/Repositories/ZT-Calc-Workflow")
 
-from zt_calc_workflow.csv import (
-    read_phono3py_kappa_csv, read_amset_csv, zt_dataset_from_data)
+from zt_calc_workflow.amset import read_amset_csv
+from zt_calc_workflow.dataset import zt_dataset_from_data, dataset_to_2d
+from zt_calc_workflow.phono3py import read_phono3py_kappa_csv
 from zt_calc_workflow.plotting import setup_matplotlib
-from zt_calc_workflow.utility import amset_or_zt_to_2d
 
 
 if __name__ == "__main__":
@@ -69,9 +69,9 @@ if __name__ == "__main__":
         # Combine AMSET and Phono3py data into ZT datasets, then convert to
         # 2D data.
         
-        zt_data[k] = (amset_or_zt_to_2d(
+        zt_data[k] = (dataset_to_2d(
                           zt_dataset_from_data(amset_data_p, kappa_data)),
-                      amset_or_zt_to_2d(
+                      dataset_to_2d(
                           zt_dataset_from_data(amset_data_n, kappa_data)))
 
     # Setup Matplotlib.

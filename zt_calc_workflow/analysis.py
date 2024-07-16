@@ -1,6 +1,13 @@
 # zt_calc_workflow/analysis.py
 
 
+# ---------
+# Docstring
+# ---------
+
+""" Routines for analysing datasets. """
+
+
 # -------
 # Imports
 # -------

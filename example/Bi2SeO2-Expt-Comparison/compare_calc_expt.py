@@ -28,9 +28,9 @@ import numpy as np
 
 import sys ; sys.path.append(r"/mnt/d/Repositories/ZT-Calc-Workflow")
 
+from zt_calc_workflow.amset import read_amset_csv
 from zt_calc_workflow.analysis import match_data
-from zt_calc_workflow.csv import read_amset_csv
-from zt_calc_workflow.utility import amset_or_zt_to_2d
+from zt_calc_workflow.dataset import dataset_to_2d
 
 
 def read_expt_data_csv(file_path):
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # Load AMSET calculation and create 2D datasets.
     
     data = read_amset_csv(r"Bi2SeO2-AMSET-n.csv")
-    calc_n, calc_t, calc_data_2d = amset_or_zt_to_2d(data)
+    calc_n, calc_t, calc_data_2d = dataset_to_2d(data)
     
     # Experimental carrier concentrations (nominal).
     

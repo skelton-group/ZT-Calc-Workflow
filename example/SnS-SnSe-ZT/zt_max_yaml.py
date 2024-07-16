@@ -25,9 +25,11 @@ The calculation combines data from multiple papers:
 
 import sys ; sys.path.append(r"/mnt/d/Repositories/ZT-Calc-Workflow")
 
+from zt_calc_workflow.amset import read_amset_csv
 from zt_calc_workflow.analysis import get_zt_max
-from zt_calc_workflow.csv import (
-    read_phono3py_kappa_csv, read_amset_csv, zt_dataset_from_data)
+from zt_calc_workflow.dataset import zt_dataset_from_data
+from zt_calc_workflow.phono3py import read_phono3py_kappa_csv
+
 
 
 if __name__ == "__main__":
