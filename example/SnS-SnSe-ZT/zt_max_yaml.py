@@ -63,19 +63,27 @@ if __name__ == "__main__":
     # Get ZT_max for each system and n/p-type doping and write to a YAML file.
     
     with open(r"zt_max.yaml", 'w') as f:
-        for k, t_max in ('SnS', 880.), ('SnSe', 800.):
-            p_data, n_data = zt_data[k]
+        for system, t_max in ('SnS', 880.), ('SnSe', 800.):
+            p_data, n_data = zt_data[system]
             
             for doping_type, data in ('p', p_data), ('n', n_data):
                 rec = get_zt_max(data, t_max=t_max)
                 
-                f.write("- system: {0}\n".format("{0}-Pnma".format(k)))
+                f.write("- system: {0}\n".format("{0}-Pnma".format(system)))
                 f.write("  carrier_type: {0}\n".format(doping_type))
                 
                 f.write("  carrier_conc: {0}\n".format(rec['n']))
                 f.write("  temp: {0}\n".format(rec['t']))
                 
-                for suffix in 'xx', 'yy', 'zz', 'ave':
-                    for h in rec.index:
-                        if h.endswith(suffix):
-                            f.write("  {0}: {1}\n".format(h, rec[h]))
+                data_k = []
+                
+                for k in rec.index:
+                    if k.endswith('ave'):
+                        data_k.append(k.replace('_ave', ''))
+
+                for k in data_k:
+                    f.write("  {0}:\n".format(k))
+
+                    for suffix in 'xx', 'yy', 'zz', 'ave':
+                        f.write("    {0}: {1}\n".format(
+                                    suffix, rec['{0}_{1}'.format(k, suffix)]))
