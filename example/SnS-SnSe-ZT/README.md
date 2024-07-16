@@ -44,9 +44,11 @@ This script uses the analysis tools in `zt_calc_workflow` to extract the maximum
 1. J. M. Skelton,
    "Approximate models for the lattice thermal conductivity of alloy thermoelectrics",
    *J. Mater. Chem. C* **9** (*35*), 11772 (**2021**), DOI: <a href="https://doi.org/10.1039/D1TC02026A" target="_blank">10.1039/D1TC02026A</a>
+
 2. J. M. Flitcroft, I. Pallikara and J. M. Skelton,
    "Thermoelectric Properties of *Pnma* and Rocksalt SnS and SnSe",
    *Solids* **3** (*1*), 155-176 (**2022**), DOI: <a href="https://doi.org/10.3390/solids3010011" target="_blank">10.3390/solids3010011</a>
+
 3. M. Zhang, J. Flictroft, S. Guillemot and J. Skelton,
    "Thermoelectric properties of *Pnma* and *R*3*m* GeS and GeSe"
-   *J. Mater. Chem. C* **11**, 14833 (**2023**), DOI: <a href="https://doi.org/10.1039/D3TC02938G" target="_blank">10.1039/D3TC02938G</a>
+   *J. Mater. Chem. C* **11** (*42*), 14833 (**2023**), DOI: <a href="https://doi.org/10.1039/D3TC02938G" target="_blank">10.1039/D3TC02938G</a>

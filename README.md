@@ -23,7 +23,7 @@ For further information, see the README file <a href="example/Bi2SeO2-Expt-Compa
 
 ## Contributors
 
-The `zt_calc_workflow` and examples have been developed through the hard work of a number of people.
+The `zt_calc_workflow` package and examples includes hard work from a number of contributors.
 This list includes (not exhaustive!): Dr J. M. Skelton, Dr J. M. Flitcroft, Dr I. Pallikara, S. Guillemot, A. Z. Khan and M. Zhang.
 
 

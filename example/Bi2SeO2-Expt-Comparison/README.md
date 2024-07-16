@@ -40,7 +40,8 @@ n          | T          | Expt.      | n          | T          | Calc.      | Di
 
 1. J. Wang, W. Hu, Z. Lou, Z. Xu, X. Yang, T. Wang and X. Lin,
    "Thermoelectric properties of Bi<sub>2</sub>O<sub>2</sub>Se single crystals",
-   *Appl. Phys. Lett.* **119**, 081901 (**2021**), DOI: <a href="https://doi.org/10.1063/5.0063091" target="_blank">10.1063/5.0063091</a>
-3. J. M. Flitcroft, A. Althubiani and J. M. Skelton,
+   *Appl. Phys. Lett.* **119** (*8*), 081901 (**2021**), DOI: <a href="https://doi.org/10.1063/5.0063091" target="_blank">10.1063/5.0063091</a>
+
+2. J. M. Flitcroft, A. Althubiani and J. M. Skelton,
    "Thermoelectric properties of the bismuth oxychalcogenides Bi<sub>2</sub>SO<sub>2</sub>, Bi<sub>2</sub>SeO<sub>2</sub> and Bi<sub>2</sub>TeO<sub>2</sub>",
    *J. Phys.: Energy* **6** (*2*), 025011 (**2024**), DOI: <a href="https://doi.org/10.1088/2515-7655/ad2afd" target="_blank">10.1088/2515-7655/ad2afd</a>
