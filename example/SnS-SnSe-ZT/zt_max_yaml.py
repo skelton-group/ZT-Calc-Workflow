@@ -11,15 +11,15 @@ The calculation combines data from multiple papers:
     Approximate models for the lattice thermal conductivity of alloy
         thermoelectrics
     J. M. Skelton
-    J. Mater. Chem. C 9 (35), 11772 (2021)
+    J. Mater. Chem. C 9 (35), 11772 (2021), DOI: 10.1039/D1TC02026A
 
     Thermoelectric Properties of Pnma and Rocksalt SnS and SnSe
     J. M. Flitcroft, I. Pallikara and J. M. Skelton
-    Solids 3 (1), 155-176 (2022)
+    Solids 3 (1), 155-176 (2022), DOI: 10.3390/solids3010011
     
     Thermoelectric properties of Pnma and R3m GeS and GeSe
     M. Zhang, J. Flictroft, S. Guillemot and J. Skelton
-    J. Mater. Chem. C 11, 14833 (2023)
+    J. Mater. Chem. C 11, 14833 (2023, DOI: 10.1039/D3TC02938G
 """
 
 

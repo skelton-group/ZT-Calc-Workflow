@@ -3,7 +3,7 @@
 
 ## Overview
 
-A comparison of the calculated electrical conductivity <i>&sigma;</i> and Seebeck coefficient *S* of n-type Bi<sub>2</sub>SeO<sub>2</sub> to experimental data.
+This example performs a comparison of the calculated electrical conductivity <i>&sigma;</i> and Seebeck coefficient *S* of n-type Bi<sub>2</sub>SeO<sub>2</sub> to experimental data.
 
 
 ## Scripts
