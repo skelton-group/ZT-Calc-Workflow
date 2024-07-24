@@ -47,7 +47,7 @@ if __name__ == "__main__":
     colours = ['b', 'r']
 
     xlim = (1.0e16, 1.0e20)
-    ylim_sets = [(0.0, 500.0), (0.0, 1000.0), (0.0, 5.0), (0.0, 1.0)]
+    ylim_sets = [(0.0, 750.0), (0.0, 750.0), (0.0, 6.0), (0.0, 1.0)]
 
     # Plot.
     
@@ -88,6 +88,9 @@ if __name__ == "__main__":
 
     for axes, ylim in zip(subplot_axes, ylim_sets):
         axes.set_ylim(ylim)
+        
+        y_min, y_max = ylim
+        axes.set_yticks(np.linspace(y_min, y_max, 6))
 
     for axes in subplot_axes:
         axes.set_xlabel(r"Doping Level $n$ [cm$^{-3}$]")
