@@ -43,7 +43,7 @@ if __name__ == "__main__":
     # Read input data.
 
     input_files = {'SnS': (r"SnS-Pnma-AMSET-p.csv", r"SnS-Pnma-AMSET-n.csv",
-                          r"SnS-kappa-m16816.Prim.csv"),
+                           r"SnS-kappa-m16816.Prim.csv"),
                    'SnSe': (r"SnSe-Pnma-AMSET-p.csv", r"SnSe-Pnma-AMSET-n.csv",
                             r"SnSe-kappa-m16816.Prim.csv")}
     

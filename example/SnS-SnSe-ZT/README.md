@@ -10,13 +10,20 @@ This example analyses a *ZT* calculation on p- and n-type *Pnma* SnS and SnSe.
 
 This example contains the following example scripts:
 
-### 1. `zt_plot.py`
+
+### 1. `elec_n_plot.py`
+
+This script plots a comparison of the electrical conductivity <i>&sigma;</i>, Seebeck coefficient *S*, power factor <i>S</i><sup>2</sup><i>&sigma;</i> (PF) and electrical thermal conductivity <i>&kappa;</i><sub>el</sub> of p- and n-type *Pnma* SnS and SnSe as a function of doping level *n* at a fixed *T* = 700 K.
+
+<p align="center"><img src="elec_n_plot.png" width="60%"></p>
+
+### 2. `zt_plot.py`
 
 This script plots a comparison of the *ZT* of p- and n-type *Pnma* SnS and SnSe as a function of doping level *n* and temperature *T*.
 
-<img src="zt_plot.png" width="60%">
+<p align="center"><img src="zt_plot.png" width="60%"></p>
 
-### 2. `zt_max_yaml.py`
+### 3. `zt_max_yaml.py`
 
 This script uses the analysis tools in `zt_calc_workflow` to extract the maximum <i>ZT</i><sub>max</sub> at temperatures around the *Pnma* -> *Cmcm* transition *T* and writes the data to a YAML file.
 
