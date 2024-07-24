@@ -130,4 +130,4 @@ if __name__ == "__main__":
     # Finalise and save.
 
     plt.savefig(r"elec_n_plot.png", dpi=300)
-    #plt.close()
+    plt.close()
