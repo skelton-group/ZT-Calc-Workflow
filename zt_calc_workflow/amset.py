@@ -49,11 +49,11 @@ def _check_update_amset_dataset(
     
             if len(t_check) != len(t_vals):
                 raise Exception("Incomplete set of temperatures for n = "
-                                "{1:.3e}".format(n))
+                                "{0:.3e}".format(n))
     
             if not np.allclose(t_vals, sorted(t_check)):
                 raise Exception("Inconsistent set of temperatures for n = "
-                                "{1:.3e}".format(n))
+                                "{0:.3e}".format(n))
     else:
         warnings.warn("check_uniform is set to False - other functions may "
                       "not work as expected on non-uniform data.", UserWarning)
