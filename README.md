@@ -34,7 +34,7 @@ This list includes (not exhaustive!): Dr J. M. Skelton, Dr J. M. Flitcroft, Dr I
 
 ## Papers using this workflow
 
-2. J. M. Flitcroft, I. Pallikara and J. M. Skelton,
+1. J. M. Flitcroft, I. Pallikara and J. M. Skelton,
    "Thermoelectric Properties of *Pnma* and Rocksalt SnS and SnSe",
    *Solids* **3** (*1*), 155-176 (**2022**), DOI: <a href="https://doi.org/10.3390/solids3010011" target="_blank">10.3390/solids3010011</a>
 
