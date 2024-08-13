@@ -10,12 +10,17 @@ ZT-Calc-Workflow is a Python package and a set of example scripts implementing a
 
 Examples can be found in the `example` folder.
 
-### 1. *ZT* of *Pnma* SnS and SnSe
+### 1. <i>&kappa;</i><sub>latt</sub> of *Pnma* SnS and SnSe
+
+An analysis of the lattice thermal conductivity, <i>&kappa;</i><sub>latt</sub>, of *Pnma* SnS and SnSe.
+For further information, see the README file <a href="example/SnS-SnSe-k_latt/README.md">here</a>.
+
+### 2. *ZT* of *Pnma* SnS and SnSe
 
 A *ZT* calculation on p- and n-type *Pnma* SnS and SnSe.
 For further information, see the README file <a href="example/SnS-SnSe-ZT/README.md">here</a>.
 
-### 2. Comparing calculations on Bi<sub>2</sub>SeO<sub>2</sub> to experimental measurements
+### 3. Comparing calculations on Bi<sub>2</sub>SeO<sub>2</sub> to experimental measurements
 
 A comparison of the calculated electrical conductivity <i>&sigma;</i> and Seebeck coefficient *S* of n-type Bi<sub>2</sub>SeO<sub>2</sub> to experimental data.
 For further information, see the README file <a href="example/Bi2SeO2-Expt-Comparison/README.md">here</a>.
@@ -29,7 +34,7 @@ This list includes (not exhaustive!): Dr J. M. Skelton, Dr J. M. Flitcroft, Dr I
 
 ## Papers using this workflow
 
-1. J. M. Flitcroft, I. Pallikara and J. M. Skelton,
+2. J. M. Flitcroft, I. Pallikara and J. M. Skelton,
    "Thermoelectric Properties of *Pnma* and Rocksalt SnS and SnSe",
    *Solids* **3** (*1*), 155-176 (**2022**), DOI: <a href="https://doi.org/10.3390/solids3010011" target="_blank">10.3390/solids3010011</a>
 
