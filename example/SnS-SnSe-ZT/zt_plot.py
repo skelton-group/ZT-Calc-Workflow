@@ -1,9 +1,8 @@
 # zt_plot.py
 
 
-"""
-In this example, we prepare a plot to compare the ZT of p- and n-type Pnma SnS
-and SnSe as a function of doping level and temperature.
+""" In this example, we prepare a plot to compare the ZT of p- and n-type Pnma
+SnS and SnSe as a function of doping level and temperature.
 
 The calculation combines data from multiple papers:
 

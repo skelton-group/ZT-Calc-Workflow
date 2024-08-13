@@ -1,10 +1,9 @@
 # zt_max_yaml.py
 
 
-"""
-In this example, we determine the ZT_max from ZT calculations on p- and n-type
-Pnma SnS and SnSe at temperatures around the Pnma -> Cmcm transition T and
-write the data to a YAML file.
+""" In this example, we determine the ZT_max from ZT calculations on p- and
+n-type Pnma SnS and SnSe at temperatures around the Pnma -> Cmcm transition T
+and write the data to a YAML file.
 
 The calculation combines data from multiple papers:
 

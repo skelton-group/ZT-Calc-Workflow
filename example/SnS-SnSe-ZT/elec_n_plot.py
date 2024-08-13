@@ -1,10 +1,9 @@
 # elec_n_plot.py
 
 
-"""
-In this example, we prepare a plot to compare the electrical properties \sigma,
-S, S^2 \sigma (PF) and \kappa_el of p- and n-type Pnma SnS and SnSe as a
-function of doping level at a fixed T = 700 K.
+""" In this example, we prepare a plot to compare the electrical properties
+\sigma, S, S^2 \sigma (PF) and \kappa_el of p- and n-type Pnma SnS and SnSe as
+a function of doping level at a fixed T = 700 K.
 
 The calculation combines data from two papers:
 

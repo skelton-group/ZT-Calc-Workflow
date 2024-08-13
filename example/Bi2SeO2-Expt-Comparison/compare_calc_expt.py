@@ -1,18 +1,19 @@
 # compare_calc_expt.py
 
 
-"""
-In this example, we fit the electrical conductivity and Seebeck coefficient
+""" In this example, we fit the electrical conductivity and Seebeck coefficient
 from an AMSET calculation on n-type Bi2SeO2 against experimental data from
 measurements on five single-crystal Br-doped Bi2SeO2 samples ("S1" - "S5").
 
 Calculation paper:
+
     Thermoelectric properties of the bismuth oxychalcogenides Bi2SO2, Bi2SeO2
         and Bi2TeO2
     J. M. Flitcroft, A. Althubiani and J. M. Skelton
     J. Phys.: Energy 6 (2), 025011 (2024), DOI: 10.1088/2515-7655/ad2afd
 
 Experimental paper:
+
      Thermoelectric properties of Bi2O2Se single crystals
      J. Wang, W. Hu, Z. Lou, Z. Xu, X. Yang, T. Wang and X. Lin
      Appl. Phys. Lett. 119, 081901 (2021), DOI: 10.1063/5.0063091
