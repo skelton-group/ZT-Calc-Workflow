@@ -3,7 +3,7 @@
 
 ## Overview
 
-This example analyses a lattice thermal conductivity ($\kappa_\mathrm{latt}$) calculation on *Pnma* SnS and SnSe.
+This example analyses a lattice thermal conductivity (<i>&kappa;</i><sub>latt</sub>) calculation on *Pnma* SnS and SnSe.
 
 
 ## Scripts
@@ -13,9 +13,9 @@ This example contains the following example scripts:
 
 ### 1. `k_latt_crta_plot.py`
 
-This script plots an analysis of the $\kappa_\mathrm{latt}$ of SnS and SnSe using the "constant relaxation-time approximation" ("CRTA") model, which decomposes the $\kappa$ into a harmonic function $\kappa / \tau^\mathrm{CRTA}$ and a weighted-average lifetime $\tau^\mathrm{CRTA}$.
+This script plots an analysis of the <i>&kappa;</i><sub>latt</sub> of SnS and SnSe using the "constant relaxation-time approximation" ("CRTA") model, which decomposes the <i>&kappa;</i> into a harmonic function <i>&kappa;</i>/<i>&tau;</i><sup>CRTA</sup> and a weighted-average lifetime <i>&tau;</i><sup>CRTA</sup>.
 
-<p align="center"><img src="k_latt_crta_plot.png" width="75%"></p>
+<p align="center"><img src="k_latt_crta_plot.png" width="60%"></p>
 
 
 ## References
