@@ -17,13 +17,19 @@ This script plots a comparison of the electrical conductivity <i>&sigma;</i>, Se
 
 <p align="center"><img src="elec_n_plot.png" width="765"></p>
 
-### 2. `zt_plot.py`
+### 2. `elec_t_plot.py`
+
+This script plots a comparison of the <i>&sigma;</i>, *S*, <i>S</i><sup>2</sup><i>&sigma;</i> and <i>&kappa;</i><sub>el</sub> of p- and n-type *Pnma* SnS and SnSe as a function of temperature at a fixed *n* = 4 &times; 10<sup>19</sup> cm<sup>-3</sup>.
+
+<p align="center"><img src="elec_t_plot.png" width="765"></p>
+
+### 3. `zt_plot.py`
 
 This script plots a comparison of the *ZT* of p- and n-type *Pnma* SnS and SnSe as a function of doping level *n* and temperature *T*.
 
 <p align="center"><img src="zt_plot.png" width="661"></p>
 
-### 3. `zt_max_yaml.py`
+### 4. `zt_max_yaml.py`
 
 This script uses the analysis tools in `zt_calc_workflow` to extract the maximum <i>ZT</i><sub>max</sub> at temperatures around the *Pnma* -> *Cmcm* transition *T* and writes the data to a YAML file.
 

@@ -30,8 +30,6 @@ from matplotlib.gridspec import GridSpec
 from matplotlib.offsetbox import AnchoredText
 from matplotlib.ticker import FuncFormatter
 
-import sys ; sys.path.append(r"/mnt/d/Repositories/ZT-Calc-Workflow")
-
 from zt_calc_workflow.amset import read_amset_csv
 from zt_calc_workflow.dataset import zt_dataset_from_data, dataset_to_2d
 from zt_calc_workflow.phono3py import read_phono3py_kappa_csv
@@ -81,17 +79,17 @@ if __name__ == "__main__":
 
     t_min, t_max = 300., 900.
 
-    zt_contour_levels = [0.25, 0.5, 1.0, 1.5, 2.0, 2.5]
+    zt_contour_levels = [0.25, 0.5, 1., 1.5, 2., 2.5]
     
     subplot_labels = ["p-type SnS", "n-type SnS", "p-type SnSe", "n-type SnSe"]
 
     # Custom formatters for labels.
 
     def contour_fmt(v):
-        if v % 1.0 == 0:
+        if v % 1. == 0.:
             return "{0:.0f}".format(v)
 
-        if v % 0.5 == 0:
+        if v % 0.5 == 0.:
             return "{0:.1f}".format(v)
 
         return "{0:.2f}".format(v)
@@ -112,11 +110,11 @@ if __name__ == "__main__":
             t_mask = np.logical_and(t >= t_min, t <= t_max)
             global_zt_max = max(global_zt_max, data['zt_ave'][:, t_mask].max())
     
-    norm = Normalize(vmin=0.0, vmax=global_zt_max)
+    norm = Normalize(vmin=0., vmax=global_zt_max)
 
     # Plot.
 
-    plt.figure(figsize=(14.0 / 2.54, 14.0 / 2.54))
+    plt.figure(figsize=(14. / 2.54, 14. / 2.54))
     
     # Use a GridSpec to divide the plot into a four subplot axes and a colour
     # bar axis.
@@ -162,7 +160,7 @@ if __name__ == "__main__":
     # Adjust axis ranges and labels.
 
     for axes in subplot_axes:
-        axes.set_ylim(300.0, 900.0)
+        axes.set_ylim(300., 900.)
 
     for axes in subplot_axes:
         axes.xaxis.set_major_formatter(log_formatter)
@@ -181,7 +179,7 @@ if __name__ == "__main__":
             frameon=True)
 
         subplot_label.patch.set_edgecolor('k')
-        subplot_label.patch.set_facecolor((1.0, 1.0, 1.0, 0.5))
+        subplot_label.patch.set_facecolor((1., 1., 1., 0.5))
 
         axes.add_artist(subplot_label)
 

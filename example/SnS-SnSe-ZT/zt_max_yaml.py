@@ -22,8 +22,6 @@ The calculation combines data from multiple papers:
 """
 
 
-import sys ; sys.path.append(r"/mnt/d/Repositories/ZT-Calc-Workflow")
-
 from zt_calc_workflow.amset import read_amset_csv
 from zt_calc_workflow.analysis import get_zt_max
 from zt_calc_workflow.dataset import zt_dataset_from_data
