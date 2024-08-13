@@ -15,7 +15,7 @@ This example contains the following example scripts:
 
 This script plots an analysis of the <i>&kappa;</i><sub>latt</sub> of SnS and SnSe using the "constant relaxation-time approximation" ("CRTA") model, which decomposes the <i>&kappa;</i> into a harmonic function <i>&kappa;</i>/<i>&tau;</i><sup>CRTA</sup> and a weighted-average lifetime <i>&tau;</i><sup>CRTA</sup>.
 
-<p align="center"><img src="k_latt_crta_plot.png" width="60%"></p>
+<p align="center"><img src="k_latt_crta_plot.png" width="567"></p>
 
 
 ## References

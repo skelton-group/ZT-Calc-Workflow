@@ -15,13 +15,13 @@ This example contains the following example scripts:
 
 This script plots a comparison of the electrical conductivity <i>&sigma;</i>, Seebeck coefficient *S*, power factor <i>S</i><sup>2</sup><i>&sigma;</i> (PF) and electrical thermal conductivity <i>&kappa;</i><sub>el</sub> of p- and n-type *Pnma* SnS and SnSe as a function of doping level *n* at a fixed *T* = 700 K.
 
-<p align="center"><img src="elec_n_plot.png" width="75%"></p>
+<p align="center"><img src="elec_n_plot.png" width="765"></p>
 
 ### 2. `zt_plot.py`
 
 This script plots a comparison of the *ZT* of p- and n-type *Pnma* SnS and SnSe as a function of doping level *n* and temperature *T*.
 
-<p align="center"><img src="zt_plot.png" width="60%"></p>
+<p align="center"><img src="zt_plot.png" width="661"></p>
 
 ### 3. `zt_max_yaml.py`
 
