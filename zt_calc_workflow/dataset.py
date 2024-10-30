@@ -86,7 +86,7 @@ def zt_dataset_from_amset_phono3py_csvs(amset_file, phono3py_kappa_file):
     from zt_dataset_from_data(). """
 
     elec_prop_data = read_amset_csv(amset_file, convert_sigma_s_cm=True,
-                                    recalculate_pf_mw_m_k2=True)
+                                    calculate_pf_mw_m_k2=True)
 
     kappa_latt_data = read_phono3py_kappa_csv(phono3py_kappa_file)
 

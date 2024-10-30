@@ -32,7 +32,7 @@ def get_zt_max(data, n_min=None, n_max=None, t_max=None, t_min=None):
     
     # Mask data if required.
 
-    data_mask = np.ones(len(data))
+    data_mask = np.ones(len(data), dtype=np.bool)
 
     if n_min is not None:
         data_mask = np.logical_and(data_mask, data['n'] >= n_min)
